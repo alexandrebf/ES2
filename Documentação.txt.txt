@@ -1,0 +1,83 @@
+Negócio
+=======
+Empreiteira com foco na construção e manutenção de piscinas.
+
+Atividades de Negócio
+=====================
+- Projetar diversos tipos de piscina/raias;
+- Realizar manutenção em piscinas previamente construídas pela Empreiteira;
+- Calcular manualmente a área e perímetro da piscina;
+- Deduzir o tempo de construção da piscina de acordo com seu tamanho e demanda de material;
+- Compra das peças e componentes junto de fornecedores tanto para a construção como para garantia e manutenção;
+
+Problema / Oportunidade
+=======================
+
+O proprietário tem certa dificuldade em controlar a demanda pelos projetos e execução de obras das piscinas, pois:
+
+- A maior parte dos projetos que a empreiteira recebe são derivados de projetos arquitetônicos que já possuem especificação de material, o que leva os funcionários a realizar cálculos para estipular quanto material será necessário e procurar fornecedores que possuam o mesmo.
+
+- Devido ao alto número de visitas em terrenos, condomínios, etc., o uso de calculadoras e cálculo manual na hora de estipular a área e perímetro acaba sendo corrido e com resultados quebrados com pouca precisão, além da perca/mistura de fichas e planilhas de cada obra.
+
+- A maior parte do tempo é destinado aos cálculos de área e perímetro das piscinas, junto aos projetos de manutenção e estipulação do material de revestimento que muitas vezes possui uma quantidade de vértices diferente e tamanhos diversos.
+
+- O cálculo do material necessário para a borda da piscina é feito separadamente devido as preferências dos clientes, como por exemplo, o deck de madeira 10cm acima do nível da piscina.
+
+- Estipular o tempo de construção e/ou prazo de entrega do projeto de acordo com a disponibilidade de pessoal tendo em vista a execução de várias obras e agendamentos de futuras construções.
+
+Processo de Negócio
+===================
+O cliente entra em contato com a empreiteira via WhatsApp ou presencialmente dirigindo-se até onde ela se encontra para relatar a necessidade de um projeto ou execução de um projeto. O funcionário verifica os dados do cliente (nome, endereço, endereço da obra, telefone, celular e e-mail) e os insere em uma planilha com um código único. Logo após é feita ou agendada a visita ao local de construção para verificação de terreno e medição. Os dados calculados manualmente são inseridos em uma ficha impressa com o código único do cliente e depois passados para a planilha para estipular medidas, orçamento e prazo. Uma vez realizado esse processo é enviado para o cliente um e-mail e uma mensagem com todos os dados do projeto/orçamento no aguardo do retorno de aprovação...
+Caso o cliente já tenha feito um projeto com empreiteira, é inserido seu código único e adicionado mais um campo de endereço da obra.
+
+Regras de Negócio
+=================
+- RN001: A empreiteira deve ter modelos pré-fabricados para exposição aos clientes;
+
+- RN002: A empreiteira deve oferecer sistemas de manutenção e desinfecção de piscinas;
+
+- RN003: A empreiteira deve oferecer acessórios para piscinas, tais como sistemas de aquecimento;
+
+- RN004: A empreiteira deve priorizar fornecedores regionais a fim de um menor custeamento dos materiais.
+
+Stakeholders
+============
+- Empreiteiro
+- Funcionários
+- Clientes
+- Fornecedores
+- Desenvolvedores
+
+Vocabulário
+===========
+- Código único: registro único de cada cliente.
+
+Requisitos
+==========
+Projeto
+=======
+
+Requisitos Funcionais
+=====================
+- Tempo máximo de 3 dias para mandar orçamento e detalhamento do projeto para o cliente:
+Período máximo para enviar todo o orçamento para o cliente via e-mail.
+
+- Permissão de extensão do prazo de entrega da obra caso exista imprevistos:
+Caso haja imprevisto como estouro de encanamento ou necessidade de reparação do solo durante a obra, a empreiteira pode estender o prazo de entrega desde que seja no período mais curto possível.
+
+- Tempo máximo para o cliente dar o retorno de aprovação:
+O cliente tem 3 dias para dar o retorno sobre a aprovação do orçamento, caso passe do prazo e o cliente confirmar a aprovação, será acrescentado valor de 5% do projeto.
+
+- Respeitar o valor máximo do material desejado pelo cliente:
+Durante a cotação dos materiais de preferência do cliente, deve-se procurar o menor preço pelo material junto com sua entrega.
+
+
+Requisitos Não-Funcionais
+=========================
+- O cadastro de clientes deve ser feito em VBA;
+
+- A aplicação deverá ser desenvolvida em Java para ser usada em computadores;
+
+- O app para celular deverá ser desenvolvido em flutter;
+
+- A interface deverá ser minimalista.
